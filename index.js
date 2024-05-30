@@ -93,7 +93,7 @@ class Ball {
       score1++;
       if (score1 >= 5) {
         gameOver = true;
-        showWinner("Player 2");
+        showWinner("Player 1");
       } else {
         resetBall();
       }
@@ -101,7 +101,7 @@ class Ball {
       score2++;
       if (score2 >= 5) {
         gameOver = true;
-        showWinner("Player 1");
+        showWinner("Player 2");
       } else {
         resetBall();
       }
